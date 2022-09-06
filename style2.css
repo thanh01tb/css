@@ -1,0 +1,10 @@
+body{
+    background-image: url("/HTM04491.JPG");
+    background-size: cover;
+    background-repeat:no-repeat;
+}
+ul li{
+    color:coral;
+    font-family: monospace;
+    font-size: 500%;
+}

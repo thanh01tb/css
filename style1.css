@@ -1,0 +1,14 @@
+body{
+    background-image: url("/HTM04491.JPG");
+    background-repeat:no-repeat;
+    background-size: cover;
+}
+h2{
+    color: orange;
+    text-shadow: 1px 3px 5px coral;
+    text-align: center;
+}
+p{
+    text-align: center;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}

@@ -1,0 +1,115 @@
+body{
+    background-image: url("/HTM04491.JPG");
+    background-size: cover;
+    background-repeat:no-repeat;
+}
+div{
+    width: 150px;
+    height:150px;
+    display: inline-block;
+    text-align: center;
+    margin:10px;
+    transition:all 1s;
+}
+/*div:hover{
+    background: none;
+    transform: translateX(100px);
+    transition:all 1s ease;
+}*/
+.one{
+    background:red;
+    /*transition:cubic-bezier(0.075, 0.82, 0.165, 1);
+    transition-property:background, border-radius ;*/
+    transition-duration: 1,5s;
+}
+.one:hover{
+    border-radius: 20%;
+    background-color:crimson;
+}
+.two{
+    background:blue;
+    transition-duration: 1,5s;
+}
+.two:hover{
+    background:cornflowerblue;
+    border-radius: 25%;
+
+}
+.three{
+    background:green; 
+    transition-duration: 1,5s;   
+}
+.three:hover{
+    border-radius: 25%;
+    background-color:darkgreen;
+}
+.four{
+    background:yellow;
+    transition-property:background, border-radius ;
+    transition-duration: 1,5s;
+}
+.four:hover{
+    border-radius: 25%;
+    background-color: coral;
+}
+.five{
+    background: palevioletred;
+} 
+.five:hover{
+    border-radius: 25%;
+    background: aquamarine;
+}
+.six{
+    background:grey;
+}
+.six:hover{
+    border-radius: 25%;
+    background: none;
+}
+.animation{
+    background:cornsilk;
+    animation-name: move;
+    animation-duration: 8s;
+    animation-iteration-count: infinite;
+    border-radius: 25%;
+}
+@keyframes move {
+    0%{
+       /* transform: translateX(40px);*/
+        background: red;
+    }
+    20%{
+        /*transform: translateX(80px);*/
+        background: blue;
+    }
+    40%{
+        /*transform: translateX(120px);*/
+        background: green;
+    }
+    60%{
+        /*transform: translateX(160px);*/
+        background: yellow;
+    }
+    80%{
+        /*transform: translateX(200px);*/
+        background: palevioletred;
+    }
+    100%{
+        /*transform: translateX(240px);*/
+        background: grey;
+    }
+
+}
+h1{
+    text-shadow: 1px 3px 5px coral;
+    color:orange;
+    text-align: center;
+}
+.box{
+    background: aqua;
+    content:"hello baby";
+    box-sizing: content-box;
+    box-shadow: 5px 5px 5px aquamarine;
+    border-radius: 10%;
+}
+
