@@ -4,7 +4,7 @@ body{
     background-repeat:no-repeat;
 }
 div{
-    width: 150px;
+    width: 160px;
     height:150px;
     display: inline-block;
     text-align: center;
@@ -95,10 +95,10 @@ div{
         background: palevioletred;
     }
     100%{
+        
         /*transform: translateX(240px);*/
         background: grey;
     }
-
 }
 h1{
     text-shadow: 1px 3px 5px coral;
